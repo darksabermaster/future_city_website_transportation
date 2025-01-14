@@ -44,7 +44,7 @@ background-color: #E2FFE2;
 
 h2{
 text-align: center;
-font-size: 5em;
+font-size: 1em;
 color: navy;
 font-family: Monospace;
 font-weight: 700;
@@ -52,6 +52,7 @@ font-weight: 700;
 
 h1{
 text-align : center;
+font-size: 3.5em;
 color: navy;
 font-family: Sans-Serif;
 margin-bottom: 1.5em;
