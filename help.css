@@ -1,0 +1,91 @@
+.btn{
+/*      */
+margin-right: 10px;
+margin-left: 10px;
+/*      */
+font-family: Monospace;
+border: 10px solid;
+border-radius:10px;
+padding : 0.5em 1em;
+color : green;
+font-size: 2em;
+font-weight: 700;
+background-color : white;
+margin-top:25px;
+/*      */
+transition-property : transform;
+transition-duration : 0.3s;
+transition-timing-function : ease;
+/*      */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.btn:hover{
+transform : translateY(-5.69px);
+color : navy;
+background-color : white;
+}
+
+h2{
+text-align: center;
+font-size: 5em;
+color: navy;
+font-family: Monospace;
+font-weight: 700;
+}
+
+h1{
+text-align : center;
+color: navy;
+font-family: Sans-Serif;
+margin-bottom: 1.5em;
+}
+
+body{
+background-color: #F4FFF5;   
+}
+
+
+divatc{     
+font-size: 1.5em;
+color: navy;
+font-weight: 700;
+text-align: center;
+font-family: Sans-Serif;
+}
+
+@keyframes slideInLeft {
+from{
+transform : translateX(-300px);    
+}
+to{
+transform : translateX(0);
+} 
+}
+
+.animat{
+animation-name: slideInLeft;
+animation-duration: 1s;
+animation-timing-function: ease;
+}
+
+.animat1{
+animation-name: slideInLeft;
+animation-duration: 1.25s;
+animation-timing-function: ease;
+}
+
+.animat2{
+animation-name: slideInLeft;
+animation-duration: 1.75s;
+animation-timing-function: ease;
+}
+
+
